@@ -21,7 +21,7 @@ def add():
     #return response
     return
 @app.route("/api/sub",method=['GET'])
-def add():
+def sub():
     """This is a function to recive values from requestobject
     complete the calculation 
     format the result into jason 
@@ -39,8 +39,8 @@ def add():
     response.headers["content-Type"]="application/json"
     #return response
     return
-@app.route("/api/sMUL",method=['GET'])
-def add():
+@app.route("/api/mul",method=['GET'])
+def mul():
     """This is a function to recive values from requestobject
     complete the calculation 
     format the result into jason 
@@ -59,7 +59,7 @@ def add():
     #return response
     return
 @app.route("/api/DIV",method=['GET'])
-def add():
+def div():
     """This is a function to recive values from requestobject
     complete the calculation 
     format the result into jason 
